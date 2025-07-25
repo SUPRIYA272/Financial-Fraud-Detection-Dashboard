@@ -1,31 +1,34 @@
-Project Overview:
-A Streamlit-based dashboard for detecting financial fraud using real-time stock data and advanced ML/DL models.
+💸 Financial Fraud Detection Dashboard
+This project is a Streamlit-based interactive dashboard for detecting financial fraud in stock market data. It performs end-to-end processing, including:
 
-Features:
+🚀 Project Overview
+Detects anomalies and potential fraudulent activity in financial data.
 
-Real-time stock selection
+Uses real-time stock data from Yahoo Finance (yfinance).
 
-ETL & preprocessing pipeline
+Offers a user-friendly web dashboard interface with multiple model choices.
 
-EDA: trend, volume, correlation analysis
+🔍 Features
+Select stock ticker and date range
 
-Fraud detection using ML & DL models
+ETL: Data extraction, cleaning, feature engineering
 
-Interactive anomaly visualization
+EDA: Visuals like line charts, bar charts, and correlation heatmaps
 
-ML/DL Models Used:
+Model Selection:
 
-Isolation Forest (ML)
+🧠 Isolation Forest (ML)
 
-Autoencoder (DL)
+🔐 Autoencoder (DL)
 
-LSTM (DL)
+📈 LSTM (DL)
 
-Outputs:
+Highlights anomalies in stock behavior
 
-Detected anomalies
+🤖 Algorithms Used
+Isolation Forest (unsupervised anomaly detection)
 
-Dataset summary and charts
+Autoencoder (deep learning-based reconstruction)
 
-Model-wise comparison in dashboard
+LSTM (deep sequence modeling for time-series prediction)
 
